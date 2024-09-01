@@ -1,5 +1,6 @@
-from cnnClassifier.pipeline.stage01_data_ingestion import DataIngestionTrainingPipeline
-from cnnClassifier import logger
+
+from src.cnnClassifier import logger
+from src.cnnClassifier.pipeline.stage01_data_ingestion import DataIngestionTrainingPipeline
 
 
 STAGE_NAME= "Data Ingestion Stage"
